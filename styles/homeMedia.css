@@ -1,0 +1,144 @@
+@media(max-width:1300px) {
+    .s6_icon{
+        display: none;
+    }
+}
+@media(max-width:1245px) {
+    .section1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section3 {
+        flex-direction: column;
+
+    }
+
+    .section3_img {
+        object-fit: cover;
+        width: 100%;
+        height: 830px;
+    }
+
+    .section3_box {
+        padding-inline: 10px;
+    }
+}
+@media(max-width:1216px){
+       .section6_box{
+        justify-content: center;
+        gap: 50px;
+       }
+}
+
+@media(max-width:870px) {
+    .section5_text {
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .section5_item1 {
+        width: 48%;
+        order: -2;
+        height: 371px;
+
+    }
+
+    .section5_img1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section5_item2 {
+        width: 100%;
+    }
+
+    .section5_img2 {
+        width: 100%;
+    }
+
+    .section5_item3 {
+        width: 48%;
+        height: 317px;
+    }
+
+    .section5_img3 {
+        width: 100%;
+        height: 317px;
+    }
+
+    .section5_item4 {
+        width: 48%;
+        height: 317px;
+    }
+
+    .section5_img4 {
+        width: 100%;
+        height: 317px;
+
+    }
+     .section5_item5 {
+
+        width: 48%;
+        height: 380px;
+
+    }
+
+    .section5_img5 {
+        width: 100%;
+        height: 380px;
+    }
+
+    .section5_item6 {
+        width: 48%;
+        order: -2;
+        height: 371px;
+
+    }
+
+    .section5_img6 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .section5_item7 {
+
+        width: 48%;
+        height: 380px;
+
+    }
+
+    .section5_img7 {
+        width: 100%;
+        height: 380px;
+    }
+   
+}
+
+@media(max-width:830px) {
+
+
+    .section4_icon {
+        display: none;
+    }
+}
+
+@media(max-width:760px) {
+    .section4_box {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+@media(max-width:640px){
+    .section5_item{
+        width: 80%;
+        height: 380px;
+        
+    }
+    .section5_img{
+        height: 380px;
+    }
+    .section5_box{
+        justify-content: center;
+    }
+}
