@@ -1,0 +1,30 @@
+@media(max-width:1368px){
+    .section2_box{
+        justify-content: center;
+    }
+}
+@media(max-width:1258px){
+    .section1_items{
+        justify-content: space-around;
+    }
+}
+@media(max-width:710px){
+    .section2_img{
+        max-width: 500px;
+    }
+    .section2_right{
+        padding-inline: 10px;
+    }
+    .section2_right_title{
+        font-size: 35px;
+    }
+    .section2_right_text1{
+        font-size: 30px;
+    }
+    .section2_right_text1_blue{
+        font-size: 25px;
+    }
+    .section2_right_text2{
+        font-size: 14px;
+    }
+}

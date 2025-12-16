@@ -1,0 +1,109 @@
+.section1_title{
+    text-align: center;
+    margin-top: 105px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--fontSatoshi);
+    color: var(--orange);
+}
+.section1_items{
+    border-top:1px solid #ab572d78 ;
+    margin-top: 16px;
+    padding-top: 77px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 65px;
+
+
+}
+.section1_item{
+    background: #2c292994;
+    border-radius: 15px;
+    padding-block: 30px;
+    transition: .8s;
+}
+.section1_item:hover{
+    scale: .9;
+}
+
+.product_name{
+    font-family: var(--fontSatoshi);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.section1_box{
+    text-align: center;
+    margin-top: 8px;
+}
+.product_point{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: var(--fontSatoshi);
+    color: var(--orange);
+}
+.section2_title{
+    margin-top: 219px;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--fontSatoshi);
+    font-size: 50px;
+    font-weight: 500;
+}
+.section2_box{
+    display: flex;
+    margin-top: 51px;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+.section2_img{
+  max-width: 750px;
+}
+.section2_right{
+    padding-block: 68px;
+   
+}
+.section2_right_title{
+    font-family: var(--fontSatoshi);
+    font-size: 46px;
+    font-weight: 400;
+    color: var(--white);
+    max-width: 608px;
+    margin-bottom: 126px;
+}
+.section2_right_text1{
+    font-family: var(--fontSatoshi);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--white);
+    max-width: 390px;
+   
+}
+.section2_right_text1_blue{
+    color: #13D0E3;
+    font-size: 35px;
+}
+.section2_right_text2{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--fontSatoshi);
+    color: var(--white);
+    margin-top: 35px;
+    max-width: 550px;
+    margin-bottom: 57px;
+}
+.section2_btn{
+    border-radius: 10px;
+    padding: 9px 33px;
+    background: none;
+    border:1px solid var(--white);
+    transition: .8s;
+}
+.section2_btn:hover{
+    scale: .9;
+    color: black;
+    background: var(--white);
+}
