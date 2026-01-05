@@ -60,11 +60,13 @@
     }
     .section3_img{
         width: 80%;
+        order: -1;
     }
     .section3_left{
         width: 80%;
     }
 }
+
 @media(max-width:710px){
    
     .section2_right{

@@ -1,0 +1,67 @@
+@media(max-width:1200px){
+    .section1{
+        padding: 100px 300px 200px 300px;
+    }
+    .section1_title{
+        font-size: 30px;
+    }
+    .section1_text{
+        font-size: 15px;
+        line-height:20px ;
+    }
+    .section2{
+        padding: 100px 250px 110px 250px;
+    }
+    .section2_title{
+        font-size: 20px;
+    }
+    .section2_text{
+        font-size: 15px;
+        line-height:20px ;
+    }
+    .section3{
+        height: 400px;
+    }
+}
+@media(max-width:1080px){
+   .section4_item_text2{
+   font-size: 15px;
+}
+.section4_item{
+    max-width: 240px;
+}
+}
+
+@media(max-width:1000px){
+    .section1{
+        padding: 50px 100px 100px 100px;
+        gap: 30px;
+    }
+    .section1_title{
+        font-size: 20px;
+    }
+    .section1_text{
+        font-size: 10px;
+        line-height:15px ;
+    }
+    .section3{
+        height: 300px;
+    }
+    .section2{
+        padding: 50px 100px 100px 100px;
+        gap: 30px;
+    }
+    .section2_title{
+        font-size: 20px;
+    }
+    .section2_text{
+        font-size: 10px;
+        line-height:15px ;
+    }
+}
+@media(max-width:758px){
+    .section4_top{
+        justify-content: center;
+        gap: 10px;
+    }
+}
