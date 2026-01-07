@@ -51,6 +51,9 @@
     font-family: var(--fontSatoshi);
     color: var(--orange);
 }
+.section2{
+    min-width: 430px;
+}
 .section2_title{
     margin-top: 219px;
     text-align: center;
@@ -113,6 +116,9 @@
     scale: .9;
     color: black;
     background: var(--white);
+}
+.section3{
+    min-width: 430px;
 }
 
 .section3_box{
