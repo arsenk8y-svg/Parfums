@@ -1,0 +1,39 @@
+.section1{
+    margin-top: 124px;
+    margin-bottom: 68px;
+}
+.section1_title{
+    font-family: var(--fontSatoshi);
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    width: 95%;
+}
+.section1_img{
+    width: 100%;
+}
+.section_title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.section_text{
+    margin-top: 10px;
+}
+.section1_item_img{
+    width: 50%;
+    max-height: 500px;
+    object-fit: cover;
+}
+.section1_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+.section1_item_box{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+   gap: 50px;
+}

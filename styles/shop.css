@@ -53,6 +53,8 @@
 }
 .section2{
     min-width: 430px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 .section2_title{
     margin-top: 219px;
@@ -119,6 +121,8 @@
 }
 .section3{
     min-width: 430px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .section3_box{

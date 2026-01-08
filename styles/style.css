@@ -122,7 +122,7 @@ a {
     padding-top: 50px;
     display: flex;
     flex-wrap: nowrap;
-    border-bottom:3px solid #1D1D1D ;
+    border-bottom: 3px solid #1D1D1D;
     padding-bottom: 20px;
 }
 
@@ -171,8 +171,9 @@ a {
     font-family: var(--fontSatoshi);
     font-size: 16px;
 }
-.footer_btn:hover{
-    color:#000000;
+
+.footer_btn:hover {
+    color: #000000;
 }
 
 .footer_icons {
@@ -190,13 +191,10 @@ a {
 }
 
 .footer_box2 {
-    padding-left: 146px;
-}
-
-.footer_box2 {
     display: flex;
     gap: 120px;
     flex-wrap: wrap;
+    padding-left: 146px;
 
 }
 
@@ -211,25 +209,30 @@ a {
     flex-direction: column;
     gap: 10px;
 }
-.footer_box2_text{
+
+.footer_box2_text {
     font-weight: bold;
     font-size: 16px;
     font-family: var(--fontSatoshi);
 }
-.footer_link{
+
+.footer_link {
     font-weight: 400;
     font-size: 16px;
     font-family: var(--fontSatoshi);
 }
-.footer_link:hover{
+
+.footer_link:hover {
     color: var(--orange);
 }
-.footer_line{
+
+.footer_line {
     width: 100%;
     height: 1px;
     background: #1D1D1D;
 }
-.footer_end_text{
+
+.footer_end_text {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -252,7 +255,7 @@ a {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         backdrop-filter: blur(10px);
         background: #ab572dcf;
-       
+
     }
 
     .nav_list {
@@ -279,25 +282,43 @@ a {
     .footer {
         flex-wrap: wrap;
         gap: 20px;
-        justify-content: center;
         align-items: center;
     }
-    .footer_box2{
+
+    .footer_box2 {
         justify-content: center;
         padding: 0;
     }
 
 }
-@media(max-width:785px){
-    .footer_box2{
-       gap: 80px;
+
+@media(max-width:785px) {
+    .footer_box2 {
+        gap: 80px;
     }
 }
 
-@media(max-width:500px) {
-    .nav {
-        width: 100%;
-        right: 0;
+@media(max-width:656px) {
+    .footer {
+        justify-content: center;
     }
-    
+    .footer_box2_item {
+        width: 30%;
+
+    }
+    .footer_box2 {
+        gap: 30px;
+    }
+    .footer_box2 .footer_box2_item:first-child{
+        margin-left: 85px;
+    }
+    .footer_box2 .footer_box2_item:nth-child(3){
+        margin-left: 5px;
+    }
+    @media(max-width:500px) {
+        .nav {
+            width: 100%;
+            right: 0;
+        }
+ }
 }
