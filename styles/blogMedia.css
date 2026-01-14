@@ -19,6 +19,7 @@
     }
     .section1_item_img{
         width: 100%;
+        height: auto;
     }
     .section1_item_box{
         max-width :1000px;;

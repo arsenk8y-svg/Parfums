@@ -23,8 +23,9 @@
 }
 .section1_item_img{
     width: 50%;
-    max-height: 500px;
+    height: 500px;
     object-fit: cover;
+   
 }
 .section1_item{
     display: flex;
